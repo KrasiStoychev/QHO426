@@ -1,2 +1,3 @@
-print("hello world")
-print("krasimir is my name")
+print("Give me a number")
+n = int(input())
+print("Adding 5 to your number, gives", n*5)
