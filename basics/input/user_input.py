@@ -1,3 +1,3 @@
-print("what is your name human?")
+print("What is your name human?")
 name = input()
-print("Its nice to meet you, ", name, sep="@@@",end="The end" )
+print("It is nice to meet you,", name)
