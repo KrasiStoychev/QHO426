@@ -1,14 +1,15 @@
-print("Towords wich direction should i paint (up, down, left or right")
-direction = input("Please Enter direction :")
+# Ask user for the direction 
+print("Towards which direction should I paint (up, down, left or right)?")
+direction = input() 
 
-if direction =='up':
-   print("Im painting in the upward direction! ")
-
-elif direction == 'down':
-   print("Im painting in the downward direction")
-
-elif direction == 'right':
-   print("Im painting in the right direction")
-
-elif direction == 'left':
-   print("Im painting in the left direction")
+# Determine which message to display
+if (direction == "up"):
+    print("\nI am painting in the upward direction!")
+elif (direction == "down"):
+    print("\nI am painting in the downward direction!")
+elif (direction == "left"):
+    print("\nI am painting in the leftward direction!")
+elif (direction == "right"):
+    print("\nI am painting in the rightward direction!")
+else:
+    print("\nNot sure which direction in am painting in!")

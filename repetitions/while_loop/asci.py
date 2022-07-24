@@ -1,8 +1,15 @@
-how_many_bars = int(input("how many bars should be charged:"))
-i = 0
+# Ask user for number of bars
+print("How many bars should be charged?")
+bars_to_charge = int(input())
 
-while(i < how_many_bars):
-  i = i+1
-  print("#\n",end='')
-  
-  
+# Declare a control variable
+bars_charged = 0
+
+# Display bars
+print()
+
+while (bars_charged < bars_to_charge):
+    bars_charged = bars_charged + 1
+    print("Charging:", "█" * bars_charged)
+    
+print("The battery is fully charged.")        

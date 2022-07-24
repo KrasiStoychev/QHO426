@@ -1,17 +1,11 @@
-print("*****************************")
-print("*** Beep Adventure picker****")
-print("*****************************")
-print("**** 1 - Safe adventure *****")
-print("**** 2 - Long adventure *****")
-print("**** 3 - Scary adventure ****")
-print("**** 4 - short adventure ****")
-print("")
+# Ask user for the type of adventure 
+print("What type of adventure should I have?")
+adventure_type = input() 
 
-adventure = int(input("what type of adventure would you like from 1 to 4 :"))
-
-if (adventure == 1) or (adventure == 2):
-   print("Entering the dark forest")
-
-elif (adventure == 3) or (adventure == 4):
-   print("Taking the safe route!")
-
+# Determine what message to display
+if ( (adventure_type == "scary") or (adventure_type == "short") ):
+    print("\nEntering the dark forest!")
+elif ( (adventure_type == "safe") or (adventure_type == "long") ):
+    print("\nTaking the safe route!")
+else:
+    print("\nNot sure which route to take.")
