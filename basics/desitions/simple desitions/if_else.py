@@ -1,3 +1,7 @@
+#We can specify what statements should be executed when the condition of an if statement is evaluated to false.
+
+
+
 # Ask user for the type of activity
 print("Please enter the activity to be performed.")
 activity = input() 

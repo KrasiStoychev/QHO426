@@ -1,28 +1,18 @@
-import random
+def steps():
+  all_steps = [("step 1", 50), ("step 2", 38), ("step 3", 27), ("step 4", 99), ("step 5", 4)]
+  return all_steps
 
-print("Please enter the minimum value:")
-min_value = int(input())
-
-print("Please enter the maximum value:")
-max_value = int(input())
-
-random_number = random.randrange(min_value, max_value)
-
-print("I am thinking of a number between {} and {}.".format(min_value, max_value))
-print("Can you guess what it is?")
-
-guess = 0
-
-while(guess != random_number):
-  print("Please enter a number:")
-  guess = int(input())
-
-  if (guess == random_number):
-    print("Congratulations!")
-    break
-  elif (guess < random_number):
-    print("Guess higher")
-  else:
-    print("Guess lower")
+def run():
+  all_steps = steps()
+  good_steps = []
+  bad_steps = []
   
-print("Game over!")
+  for step in all_steps:
+    if (step[1] >= 50):
+      bad_steps.append(step)
+    else:
+      good_steps.append(step) 
+
+  print(f"Good steps: {len(good_steps)}, Bad steps: {len(bad_steps)}")
+
+run()

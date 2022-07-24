@@ -1,3 +1,5 @@
+#Loops can also be used to carry out repetitive tasks such as reading user input.
+
 # Ask user for number
 print("How many numbers should I sum up?")
 number_to_sum = int(input())

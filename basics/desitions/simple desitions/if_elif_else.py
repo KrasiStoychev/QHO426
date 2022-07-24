@@ -1,3 +1,6 @@
+#If we wish to specify additional paths in our program then we can use additional if statements. An elif (short for ‘else if’) can be used for mutually exclusive paths.
+
+
 # Ask user for the direction 
 print("Towards which direction should I paint (up, down, left or right)?")
 direction = input() 

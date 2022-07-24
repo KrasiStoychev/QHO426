@@ -1,7 +1,16 @@
-how_many = int(input("Please select how many live cables to avoid? :"))
-i = 0
-j = 1
-while(i < how_many):
-  print(f"Avoiding..done {j} cables avoided")
-  i = i+1
-  j = j+1
+#The body of the while loop can contain as many statements as is needed.  These can be placed before or after the statement for updating the loop's control variable depending on their intended use.
+
+# Ask user for number of cables
+print("How many live cables should I avoid?")
+cables_to_avoid = int(input())
+
+# Declare a control variable
+cables_avoided = 0
+
+# Avoid cables
+print()
+
+while (cables_avoided < cables_to_avoid):
+    print("Avoiding...", end="")
+    cables_avoided = cables_avoided + 1
+    print("Done!", cables_avoided, "cables avoided.")
