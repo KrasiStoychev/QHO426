@@ -12,8 +12,8 @@ adventure_type = input()
 
 # Determine what message to display
 if ( (adventure_type == "scary") or (adventure_type == "short") ):
-    print("\nEntering the dark forest!")
+    print("Entering the dark forest!")
 elif ( (adventure_type == "safe") or (adventure_type == "long") ):
-    print("\nTaking the safe route!")
+    print("Taking the safe route!")
 else:
-    print("\nNot sure which route to take.")
+    print("Not sure which route to take.")

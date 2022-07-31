@@ -8,6 +8,15 @@ print("#  o  o  #")
 print("#  ----  #")
 print("##########")
 
+print("Please enter charecter for the eyes ?")
+eyes = input()
+print("##########")
+print(f"#  {eyes}  {eyes}  #")
+print("#  ----  #")
+print("##########")
+
+
+
 # Display an ASCII art robot using a long string
 print(""" 
 ##########

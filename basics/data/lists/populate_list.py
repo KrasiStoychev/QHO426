@@ -28,15 +28,15 @@ def directions():
 def menu():
   print("Please select a direction:")
   dirs = directions()
-  for index in range(len(dirs)):
-    print("{}: {}".format(index, dirs[index]))
-  index = int(input())
-  return dirs[index]
+  for i in range(len(dirs)):
+    print(f"{i}: {dirs[i]}")
+  i = int(input())
+  return dirs[i]
 
 def run():
   route = []
   print("Working out escape route...")
-  for count in range(5):
+  for i in range(5):
     route.append(menu())
   print(f"Escape route: {route}")
 

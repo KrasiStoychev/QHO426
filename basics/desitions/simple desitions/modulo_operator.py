@@ -9,6 +9,6 @@ number = int(input())
 
 # Display relevant message
 if (number % 2 == 0):
-    print("\nThe number {} is an even number.".format(number))
+    print(f"\nThe number {number} is an even number.")
 else:
-    print("\nThe number {} is an odd number.".format(number))
+    print(f"\nThe number {number} is an odd number.")

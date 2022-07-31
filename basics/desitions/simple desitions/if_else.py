@@ -8,9 +8,9 @@ activity = input()
 
 # Determine if the activity is calculate
 if (activity == "calculate"):
-    print("\nPerforming calculations...")
+    print("Performing calculations")
 else:
-    print("\nPerforming activity...")
+    print("Performing activity")
 
 # Display message
-print("\nActivity completed.")
+print("Activity completed.")

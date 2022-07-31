@@ -28,4 +28,4 @@ else:
     odd_numbers = odd_numbers + 1
 
 # Display result
-print("There were {} even and {} odd numbers.".format(even_numbers, odd_numbers))
+print(f"There were {even_numbers} even and {odd_numbers} odd numbers.")

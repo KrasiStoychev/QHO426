@@ -1,14 +1,20 @@
-import os
+def directions():
+  directions = ["Move Forward", "Move Backward", "Turn Left", "Turn Right"]
+  return directions
 
-def cwd():
-  path = os.getcwd()
-  print(f"The current working directory is {path}")
-  print(f"The directory contains the following:")
-  for file in os.listdir(path):
-    print(file)
+def menu():
+  print("Please select a direction:")
+  dirs = directions()
+  for i in range(len(dirs)):
+    print(f"{i}: {dirs[i]}")
+  i = int(input())
+  return dirs[i]
 
 def run():
-  print("Processing...")
-  cwd()
+  route = []
+  print("Working out escape route...")
+  for i in range(5):
+    route.append(menu())
+  print(f"Escape route: {route}")
 
 run()

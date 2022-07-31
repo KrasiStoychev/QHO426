@@ -7,12 +7,12 @@ direction = input()
 
 # Determine which message to display
 if (direction == "up"):
-    print("\nI am painting in the upward direction!")
+    print("I am painting in the upward direction!")
 elif (direction == "down"):
-    print("\nI am painting in the downward direction!")
+    print("I am painting in the downward direction!")
 elif (direction == "left"):
-    print("\nI am painting in the leftward direction!")
+    print("I am painting in the leftward direction!")
 elif (direction == "right"):
-    print("\nI am painting in the rightward direction!")
+    print("I am painting in the rightward direction!")
 else:
-    print("\nNot sure which direction in am painting in!")
+    print("Not sure which direction in am painting in!")

@@ -7,7 +7,7 @@ book_type = input()
 
 # Determine if the book is an adventure book
 if (book_type == "adventure"):
-    print("\nI like adventure books!")
+    print("I like adventure books!")
 
 # Display message
-print("\nFinished reading book.")
+print("Finished reading book")

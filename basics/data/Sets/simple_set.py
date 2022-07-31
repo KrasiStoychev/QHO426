@@ -58,10 +58,10 @@
 #data/sets/simple_set.py
 
 def observed():
-  observations = {"Flying Car", "Sky Scraper", "Laser", "Dome"}
-  return observations
-
+    observations = {"Flying Car","Sky Scraper","Laser","Dome"}
+    return observations
 def run():
-  print(observed())
+    view  = observed()
+    print(f"{view}")
 
 run()
