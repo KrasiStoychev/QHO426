@@ -1,20 +1,28 @@
-def directions():
-  directions = ["Move Forward", "Move Backward", "Turn Left", "Turn Right"]
-  return directions
+import matplotlib.pyplot as plt
 
-def menu():
-  print("Please select a direction:")
-  dirs = directions()
-  for i in range(len(dirs)):
-    print(f"{i}: {dirs[i]}")
-  i = int(input())
-  return dirs[i]
+
+def coordinate():
+     x = []
+     user_x = int(input("Please Enter value for x : "))
+     user_y = int(input("Please Enter value for y : "))
+     return (user_x, user_y)
+
+def path():
+    data = coordinates()
+    print("Retrieving path...")
+    x_values = []
+    y_values = []
+    for i in range(4):
+    
+    x_values.apped(data[0])
+    y_values.apped(data[1])
+    return (x_value, y_values)
 
 def run():
-  route = []
-  print("Working out escape route...")
-  for i in range(5):
-    route.append(menu())
-  print(f"Escape route: {route}")
+    values = path()
+    plt.plot(values[0],values[1], "ro--")
+    plt.xlable("X values")
+    plt.ylable("Y values")
+    plt.show()
 
 run()
