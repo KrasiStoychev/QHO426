@@ -27,7 +27,7 @@ def directions():
 
 def menu():
   print("Please select a direction:")
-  dirs = directions()
+  dirs = directions()  
   for i in range(len(dirs)):
     print(f"{i}: {dirs[i]}")
   i = int(input())

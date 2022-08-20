@@ -1,5 +1,3 @@
-import csv
-
 def search(file_name):
   print("Searching...")
   data = {}
@@ -15,8 +13,8 @@ def search(file_name):
       else:
         data[section_name] = [line.strip()]
     
-  print("Done!")
-  return data
+   print("Done!")
+   return data
 
 def run():
   data = search("basics/data/files/txt/books.txt")

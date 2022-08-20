@@ -6,6 +6,7 @@ def search(file_path):
   print("...Done!")
 
 def run():
-  search("basics/data/files/txt/locations.txt")
+    search("basics/data/files/txt/locations.txt")
+
 
 run()
