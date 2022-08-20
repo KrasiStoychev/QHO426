@@ -20,7 +20,7 @@ def save(file_path, data):
   print("Done!")
 
 def run():
-  data = search("basics/data/files/txt/books.txt")
-  save("basics/data/files/txt/section-books.txt", data)
+  data = search("data/files/txt/books.txt")
+  save("data/files/txt/section-books.txt", data)
 
 run()
